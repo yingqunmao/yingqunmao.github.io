@@ -358,17 +358,17 @@
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
         </a>
         
-        <a  class="All /maintain "
-           href="/2022/02/07/%E4%BC%AF%E6%B8%A9%E6%B0%B4%E7%AE%A1%E7%BB%B4%E4%BF%AE%E6%9C%8D%E5%8A%A1/"
-           data-tag="pipe"
+        <a  class="All /house "
+           href="/2022/02/07/housemaintain/"
+           data-tag="house"
            data-author="" >
             <span class="post-title" title="伯温水管维修服务">伯温水管维修服务</span>
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
         </a>
         
-        <a  class="All /house "
-           href="/2022/02/07/housemaintain/"
-           data-tag="house"
+        <a  class="All /maintain "
+           href="/2022/02/07/%E4%BC%AF%E6%B8%A9%E6%B0%B4%E7%AE%A1%E7%BB%B4%E4%BF%AE%E6%9C%8D%E5%8A%A1/"
+           data-tag="pipe"
            data-author="" >
             <span class="post-title" title="伯温水管维修服务">伯温水管维修服务</span>
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
@@ -437,11 +437,22 @@
         </span>
         
         
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                Comment:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
     </div>
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%85%AC%E5%91%8A-2"><span class="toc-text">第一次公告</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%9C%8D%E5%8A%A1%E7%94%B3%E8%AF%B7-2"><span class="toc-text">第二次服务申请</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%85%AC%E5%91%8A"><span class="toc-text">第一次公告</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%9C%8D%E5%8A%A1%E7%94%B3%E8%AF%B7"><span class="toc-text">第二次服务申请</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -457,9 +468,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一次公告-2">第一次公告<a class="anchor" href="#第一次公告-2">·</a></h2>
+        <h2 id="第一次公告">第一次公告<a class="anchor" href="#第一次公告">·</a></h2>
 <p>姓名 电话 服务时间</p>
-<h2 id="第二次服务申请-2">第二次服务申请<a class="anchor" href="#第二次服务申请-2">·</a></h2>
+<h2 id="第二次服务申请">第二次服务申请<a class="anchor" href="#第二次服务申请">·</a></h2>
 <p>姓名 电话 希望预约时间</p>
 <p><img src="https://raw.githubusercontent.com/tian0410/pictures/main/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1644601024205.jpg" alt="说明情况的位置"></p>
 
@@ -475,6 +486,57 @@
 
 
 
+
+    <section id="comments" class="disqus">
+    <style> aside.comment-bar { margin: auto 30px; }</style>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function(){
+            this.page.url = 'http://tian0410.github.io/2022/02/07/housemaintain/';
+            this.page.identifier = '2022/02/07/housemaintain/';
+        };
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = '//tian0410.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <aside class="comment-bar">
+        <a>
+            <i class="fa fa-commenting-o animated infinite pulse"></i>
+            <i class="fa fa-spinner fa-pulse"></i>
+            <span class="count-comment"></span>
+        </a>
+    </aside>
+    <script>
+        var isLoadComments = false;
+        var $commentBar = $("#comments aside.comment-bar");
+        var load$hide = function(){
+            if(isLoadComments){
+                return;
+            }
+            isLoadComments = true;
+            if(isLoadComments )
+            $commentBar.find("a > i").toggle();
+            loadComment();
+            $commentBar.fadeOut(800);
+        }
+        $commentBar.click(function(){
+            load$hide();
+        })
+        $commentBar.children("a").mouseenter(function(){
+            load$hide();
+        })
+    </script>
+
+
+</section>
+
+<!-- Add comment count-->
+<span class="disqus-comment-count" style="display: none" data-disqus-identifier="2022/02/07/housemaintain/"></span>
+<span class="disqus-comment-count" style="display: none" data-disqus-url="http://tian0410.github.io/2022/02/07/housemaintain/"></span>
 
 
 

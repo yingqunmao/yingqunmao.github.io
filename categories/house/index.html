@@ -358,17 +358,17 @@
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
         </a>
         
-        <a  class="All /maintain "
-           href="/2022/02/07/%E4%BC%AF%E6%B8%A9%E6%B0%B4%E7%AE%A1%E7%BB%B4%E4%BF%AE%E6%9C%8D%E5%8A%A1/"
-           data-tag="pipe"
+        <a  class="All /house "
+           href="/2022/02/07/housemaintain/"
+           data-tag="house"
            data-author="" >
             <span class="post-title" title="伯温水管维修服务">伯温水管维修服务</span>
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
         </a>
         
-        <a  class="All /house "
-           href="/2022/02/07/housemaintain/"
-           data-tag="house"
+        <a  class="All /maintain "
+           href="/2022/02/07/%E4%BC%AF%E6%B8%A9%E6%B0%B4%E7%AE%A1%E7%BB%B4%E4%BF%AE%E6%9C%8D%E5%8A%A1/"
+           data-tag="pipe"
            data-author="" >
             <span class="post-title" title="伯温水管维修服务">伯温水管维修服务</span>
             <span class="post-date" title="2022-02-07 12:02:03">2022/02/07</span>
@@ -443,6 +443,57 @@
         </p>
         
         
+    <section id="comments" class="disqus">
+    <style> aside.comment-bar { margin: auto 30px; }</style>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function(){
+            this.page.url = 'http://tian0410.github.io/';
+            this.page.identifier = 'categories/house/index.html';
+        };
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = '//tian0410.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <aside class="comment-bar">
+        <a>
+            <i class="fa fa-commenting-o animated infinite pulse"></i>
+            <i class="fa fa-spinner fa-pulse"></i>
+            <span class="count-comment"></span>
+        </a>
+    </aside>
+    <script>
+        var isLoadComments = false;
+        var $commentBar = $("#comments aside.comment-bar");
+        var load$hide = function(){
+            if(isLoadComments){
+                return;
+            }
+            isLoadComments = true;
+            if(isLoadComments )
+            $commentBar.find("a > i").toggle();
+            loadComment();
+            $commentBar.fadeOut(800);
+        }
+        $commentBar.click(function(){
+            load$hide();
+        })
+        $commentBar.children("a").mouseenter(function(){
+            load$hide();
+        })
+    </script>
+
+
+</section>
+
+<!-- Add comment count-->
+<span class="disqus-comment-count" style="display: none" data-disqus-identifier="categories/house/index.html"></span>
+<span class="disqus-comment-count" style="display: none" data-disqus-url=""></span>
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
